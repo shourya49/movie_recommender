@@ -46,16 +46,17 @@ The dataset is sourced from the TMDB Movie Dataset, which includes movie metadat
 To run the project locally:<br>
 
 Install the required libraries:
-bash
-Copy code
+<br>
 pip install streamlit pandas scikit-learn numpy  
-```<br>
+<br>
 Run the Streamlit app:
-bash
-Copy code
+<br>
 streamlit run app.py  
-```<br>
+<br>
 Open the browser at:
-Local access: http://localhost:8501<br>
-Network access: http://192.168.27.84:8501<br>
+<br>
+Local access: http://localhost:8501
+<br>
+Network access: http://192.168.27.84:8501
+<br>
 
