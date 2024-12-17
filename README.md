@@ -25,10 +25,13 @@ Users can enter a movie title in the search bar.
 The application returns a list of movies similar to the selected title.
 Simple and intuitive design for seamless user experience.
 🖥️ Access the App
-Run locally on: http://localhost:8501
-Access on your network: http://192.168.27.84:8501
+Run locally on:
+http://localhost:8501
+Access on your network:
+http://192.168.27.84:8501
 📊 Example Usage
 Suppose the user inputs the movie title "Harry Potter and the Goblet of Fire":
+
 The system might return:
 
 Harry Potter and the Prisoner of Azkaban
@@ -43,8 +46,13 @@ The dataset is sourced from the TMDB Movie Dataset, which includes movie metadat
 To run the project locally:
 
 Install the required libraries:
+bash
+Copy code
 pip install streamlit pandas scikit-learn numpy  
 Run the Streamlit app:
+bash
+Copy code
 streamlit run app.py  
-Open the browser at http://localhost:8501 for local access or use the network URL: http://192.168.27.84:8501 for sharing on your network.
- 
+Open the browser at:
+Local access: http://localhost:8501
+Network access: http://192.168.27.84:8501
